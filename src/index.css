@@ -1,0 +1,31 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+      font-family: 'Inter', sans-serif;
+        font-size: 14px;
+        scroll-behavior: smooth;
+        color: #9f9f9f;
+        background: #0F0F0F;
+        line-height: 19.2px;
+}
+
+
+/* For webkit-based browsers like Chrome and Safari */
+::-webkit-scrollbar {
+  width: 0.2em;
+  background-color: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #636363;
+}
+
+/* For Firefox */
+body {
+  scrollbar-width: thin;
+  scrollbar-color: #000000 #F5F5F5;
+}
